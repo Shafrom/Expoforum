@@ -540,6 +540,8 @@ a {
   outline: none;
   padding-left: 10px;
   color: rgb(104, 104, 104);
+  font-family: Plumb;
+  font-style: normal;
 }
 .footer__rightSide-input::placeholder {
   color: rgb(104, 104, 104);
