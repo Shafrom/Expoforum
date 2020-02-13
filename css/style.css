@@ -75,9 +75,11 @@ a {
   margin-right: 47px;
 }
 .navigation__link:hover {
-  color: rgb(232, 240, 197)
+  color: #FFC41E;
+  border-bottom: 1px solid #FFC41E;
 }
 .navigation__link {
+  border-bottom: 1px solid transparent;
   transition: .5s;
   color: #FFFFFF;
 }
@@ -536,7 +538,11 @@ a {
 .footer__rightSide-input {
   height: 40px;
   outline: none;
-  padding-right: 10px;
+  padding-left: 10px;
+  color: rgb(104, 104, 104);
+}
+.footer__rightSide-input::placeholder {
+  color: rgb(104, 104, 104);
 }
 .footer__rightSide-label {
   display: flex;
