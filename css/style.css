@@ -169,12 +169,22 @@ a {
   color: #FFFFFF;
   margin-bottom: 25px;
 }
+.header__mainLeft-linkCont {
+  display: flex;
+}
 .header__mainLeft-link {
   font-family: Circe;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   color: #FFFFFF;
+  margin-right: 10px;
+  border-bottom: 1px solid transparent;
+  transition: .5s;
+}
+.header__mainLeft-link:hover {
+  border-bottom: 1px solid #FFC41E;
+  color: #FFC41E;
 }
 .header__mainRight {
   max-width: 540px;
